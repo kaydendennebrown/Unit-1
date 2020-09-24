@@ -36,6 +36,6 @@ String grade = input.nextLine();
 System.out.println("Please put your favorite color");
 String favColor = input.nextLine();
 
-System.out.println("Hello" + " " + firstName + " " + lastName + "," + "You are in " + grade + " " + "grade" + " and you are " + age + " years old." +" " + "Your favorite color is " + favColor + "." );
+System.out.println("Hello" + " " + firstName + " " + lastName + "," + " you are in " + grade + " " + "grade" + " and you are " + age + " years old." +" " + "Your favorite color is " + favColor + "." );
     }
 }
