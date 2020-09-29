@@ -1,4 +1,5 @@
 package app;
+
 import java.util.Scanner;
 
 public class App {
@@ -65,5 +66,19 @@ while (finished == false) {
 }
 
 System.out.println("Complete");
+
+System.out.println("Please enter a color");
+
+String favColor = input.nextLine();
+
+System.out.println("PLease enter a number");
+
+int number = input.nextInt();
+int start = 0;
+
+while (start < number) {
+    System.out.println(favColor);
+    start = start + 1;
+}
     }
 }
