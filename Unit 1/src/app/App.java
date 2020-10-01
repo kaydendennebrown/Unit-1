@@ -80,5 +80,28 @@ while (start < number) {
     System.out.println(favColor);
     start = start + 1;
 }
+
+for (int n = 10; n <= 20; n = n + 1){
+    System.out.println("The count is " + n);
+    System.out.println("Lets keep counting");
+}
+
+for (int l = 10; l <= 100; l = l + 1){
+    System.out.println("The count is " + l);
+    System.out.println("Lets keep counting");
+}
+for (int x = 1000; x <= 256000; x = x + 1){
+    System.out.println("The count is " + x);
+    System.out.println("Lets keep counting");
+}
+
+for (int v = 11; v <= 12; v = v + 1){
+    System.out.println("The count is " + v);
+    System.out.println("Lets keep counting");
+}
+for (int h = 10; h >= 0; h = h - 1){
+    System.out.println("The count is " + h);
+    System.out.println("Lets keep counting");
+}
     }
 }
