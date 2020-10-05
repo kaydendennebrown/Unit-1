@@ -103,10 +103,12 @@ public class App {
             System.out.println("The count is " + v);
             System.out.println("Lets keep counting");
         }
+        
         for (int h = 10; h >= 0; h = h - 1) {
             System.out.println("The count is " + h);
             System.out.println("Lets keep counting");
         }
+        
         for (int q = 1; q <= 20; q++) {
             if (q % 4 == 0) {
                 System.out.println(q + " is divisble by 4");
