@@ -35,6 +35,7 @@ public class App {
         for (int x = 1; x <= 1000; x = x + 1) {
             System.out.println(x);
         }
+        
         String pass = "Pass123";
         System.out.println("Please input password");
         
@@ -43,7 +44,7 @@ public class App {
         if (pass1 == pass) {
             System.out.println("Password correct, the secret message is apple.");
         }
-        if (pass1 != pass) {
+        else {
             System.out.println("Password incorrect, 2 attempts remaining.");
         }
 
@@ -52,7 +53,7 @@ public class App {
         if (pass2 == pass) {
             System.out.println("Password correct, the secret message is apple.");
         }
-        if (pass2 != pass) {
+        else {
             System.out.println("Password incorrect, 1 attempt remaining.");
         }
 
@@ -61,7 +62,7 @@ public class App {
         if (pass3 == pass) {
             System.out.println("Password correct, the secret message is apple.");
         }
-        if (pass3 != pass) {
+        else {
             System.out.println("Password incorrect, no attempts remaining.");
         }
 
