@@ -8,7 +8,6 @@ public class App {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to Cheetah facts, please input a number (1-5).");
         int v = input.nextInt();
-        
 
         if (v == 1) {
             System.out.println("Cheetahs are the fastest land animal.");
@@ -35,21 +34,13 @@ public class App {
         }
 
         for (int x = 1; x <= 1000; x = x + 1)
-        System.out.println(x);
-       
-        
+            System.out.println(x);
+
         System.out.println("Please enter password");
-        
         String pass = input.nextLine();
 
         if (pass == "Pass123") {
-            System.out.println("Password entered correctly, the secret message is apple");
+            System.out.println("Password correct, the secret message is apple.");
         }
-       
-
-
-        
-
-
     }
 }
