@@ -38,12 +38,11 @@ public class App {
         }
 
         String pass = "Pass123";
-        System.out.println("Please input password");
        
-
+        System.out.println("Please input password");
         String pass1 = input.nextLine();
-        
-        if (pass1 == pass) {
+
+        if (pass1.equals(pass)) {
             System.out.println("Password correct, the secret message is apple.");
         } else {
             System.out.println("Password incorrect, 2 attempts remaining.");
@@ -51,7 +50,7 @@ public class App {
 
         String pass2 = input.nextLine();
 
-        if (pass2 == "Pass123") {
+        if (pass2.equals(pass)) {
             System.out.println("Password correct, the secret message is apple.");
         } else {
             System.out.println("Password incorrect, 1 attempt remaining.");
@@ -59,7 +58,7 @@ public class App {
 
         String pass3 = input.nextLine();
 
-        if (pass3 == pass) {
+        if (pass3.equals(pass)) {
             System.out.println("Password correct, the secret message is apple.");
         } else {
             System.out.println("Password incorrect, no attempts remaining.");
