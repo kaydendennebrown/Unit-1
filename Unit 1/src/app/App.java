@@ -26,21 +26,15 @@ public class App {
         }
 
         if (v == 5) {
-            System.out.println("Cheetahs are the only big cat that can turn midair.");
+            System.out.println("Cheetahs are the only big cat that can turn mid-air.");
         }
 
         if (v > 5) {
             System.out.println("Not a valid number, please enter a number (1-5)");
         }
-
-        for (int x = 1; x <= 1000; x = x + 1)
+        for (int x = 1; x <= 1000; x = x + 1){
             System.out.println(x);
-
-        System.out.println("Please enter password");
-        String pass = input.nextLine();
-
-        if (pass == "Pass123") {
-            System.out.println("Password correct, the secret message is apple.");
         }
+        }
+
     }
-}
