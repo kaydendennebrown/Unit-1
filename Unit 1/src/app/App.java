@@ -32,28 +32,28 @@ public class App {
         if (v > 5) {
             System.out.println("Not a valid number, please enter a number (1-5)");
         }
+
         for (int x = 1; x <= 1000; x = x + 1) {
             System.out.println(x);
         }
-        
+
         String pass = "Pass123";
         System.out.println("Please input password");
-        
-        String pass1 = input.nextLine();
+       
 
+        String pass1 = input.nextLine();
+        
         if (pass1 == pass) {
             System.out.println("Password correct, the secret message is apple.");
-        }
-        else {
+        } else {
             System.out.println("Password incorrect, 2 attempts remaining.");
         }
 
         String pass2 = input.nextLine();
 
-        if (pass2 == pass) {
+        if (pass2 == "Pass123") {
             System.out.println("Password correct, the secret message is apple.");
-        }
-        else {
+        } else {
             System.out.println("Password incorrect, 1 attempt remaining.");
         }
 
@@ -61,8 +61,7 @@ public class App {
 
         if (pass3 == pass) {
             System.out.println("Password correct, the secret message is apple.");
-        }
-        else {
+        } else {
             System.out.println("Password incorrect, no attempts remaining.");
         }
 
