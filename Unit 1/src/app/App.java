@@ -1,5 +1,6 @@
 package app;
 
+import java.beans.Expression;
 import java.util.Scanner;
 
 public class App {
@@ -38,14 +39,20 @@ public class App {
         }
 
         String pass = "Pass123";
-       
-        System.out.println("Please input password");
         String pass1 = input.nextLine();
 
         if (pass1.equals(pass)) {
             System.out.println("Password correct, the secret message is apple.");
         } else {
-            System.out.println("Password incorrect, 2 attempts remaining.");
+            System.out.println("Please enter password");
+        }
+
+        String pass12 = input.nextLine();
+
+        if (pass12.equals(pass)) {
+            System.out.println("Password correct, the secret message is apple.");
+        } else {
+            System.out.println("Password incorrect, 2 attempts remaining");
         }
 
         String pass2 = input.nextLine();
@@ -63,6 +70,21 @@ public class App {
         } else {
             System.out.println("Password incorrect, no attempts remaining.");
         }
+        int r = 24;
+        int n;
+        System.out.println("Please guess a number 1-100.");
+        do {
+
+            n = input.nextInt();
+            if (n < r) {
+                System.out.println("Higher");
+            } else {
+                System.out.println("Lower");
+            }
+        } while (n != r);
+
+        if (n == r)
+            System.out.println("Correct");
 
     }
 
