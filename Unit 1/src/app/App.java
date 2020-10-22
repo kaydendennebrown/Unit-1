@@ -1,6 +1,5 @@
 package app;
 
-
 import java.util.Scanner;
 
 public class App {
@@ -85,6 +84,20 @@ public class App {
 
         if (n == r)
             System.out.println("Correct");
+
+int h = 0;
+            System.out.println("Please eneter a number");
+            int y = input.nextInt();
+
+            System.out.println("Please enter a second number");
+            int x = input.nextInt();
+
+            for ( h = x % 2; h = y % 2; x++){
+System.out.println();
+            }
+
+
+            
 
     }
 
